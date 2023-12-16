@@ -10,7 +10,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestAutomation {
-    @Test
     public static void main(String[] args) {
         WebDriver driver = WebDriverSetUp.initializeChromeDriver();
         driver.get("https://www.saucedemo.com/");
