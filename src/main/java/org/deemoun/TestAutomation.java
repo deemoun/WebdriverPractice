@@ -23,4 +23,5 @@ public class TestAutomation {
         driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
         driver.quit();
     }
+
 }
